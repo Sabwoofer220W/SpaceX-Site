@@ -1,0 +1,122 @@
+@media only screen and (max-device-width: 480px) {
+  body{
+    display: grid;
+    grid-template-rows: 1600px 500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .header_Content{
+    background-image: url(../picture/adaptive/backgroundMobile3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1700px;
+  }
+
+.header_Menu{
+  height: 180px;
+  grid-column-gap: 5%;
+}
+
+.animate1{
+  width:130px;
+   height:130px;
+   margin-top: -10px;
+}
+
+.header_Menu_box{
+padding-left: 0px;
+margin-left:50%;
+width: 400px;
+
+}
+
+.header_Menu_box_logo{
+  width: 400px;
+  height: 400px;
+  padding: 0px;
+  top:-150px;
+  left:0px;
+}
+
+.header_Menu_MainMenu{
+  display: none;
+}
+
+.side-panel {
+width: 600px;
+height: 60%;
+left:-620%;
+}
+
+.side-title {
+font-size: 55px;
+}
+
+  .line {
+display: none;
+  }
+
+  .button{
+    font-size: 45px;
+    top: 300px;
+    left: 25%;
+    transition-duration: 0s;
+    color:white;
+  }
+  .button:before {
+    width: 30px;
+    height: 30px;
+  }
+  .button:after {
+    width: 30px;
+    height:30px;
+  }
+  .header_Content_plate{
+    left: 11%;
+    top: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 600px;
+    align-items: baseline;
+    grid-column-gap: 40px;
+    display: flex;
+  }
+  .header_Content_plate div{
+    display: flex;
+  justify-content: space-around;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    transition-duration: 0s;
+    opacity: 0.9;
+
+  }
+  .header_Content_plate a{
+  font-size: 42px;
+  }
+
+  .header_Content_plate span{
+  font-size: 70px;
+  }
+
+  .header_Menu_box span:before{
+    left:auto;
+  }
+
+  .header_Menu_box:before {
+      left:auto;
+  }
+
+  .header_Menu_ButMenu{
+    display: block;
+  }
+
+  .header_Menu_ButMenu a{
+    color:white;
+  }
+
+}

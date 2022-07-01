@@ -1,0 +1,499 @@
+
+/*Адаптив смартфоны*/
+@media (max-width: 600px) {
+  body{
+    display: grid;
+    grid-template-rows: 1400px 500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .animate1{
+    width:70px;
+     height:70px;
+     margin-top: 15px;
+  }
+  .animate1:hover{
+  opacity: 0.6;
+  }
+
+  .header_Content{
+    background-image: url(../picture/adaptive/backgroundMobile2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1400px;
+  }
+
+  .header_Menu{
+  height: 100px;
+  grid-column-gap: 5%;
+  }
+
+  .header_Menu_box{
+  margin-left: 210px;
+  width: 400px;
+  }
+
+.side-panel {
+  height: 60vh;
+  width: 400px;
+}
+
+.side-title {
+  font-size: 30px;
+}
+
+  .header_Menu_box_logo{
+  width: 200px;
+  height: 400px;
+  padding: 0px;
+  top:-150px;
+  left:0px;
+  }
+
+  .header_Menu_MainMenu{
+  display: none;
+  }
+
+
+
+  .line {
+  display: none;
+  }
+
+  .button{
+    font-size: 35px;
+    top: 480px;
+    left: 13%;
+    transition-duration: 0s;
+  }
+  .button:before {
+    width: 30px;
+    height: 30px;
+  }
+  .button:after {
+    width: 30px;
+    height:30px;
+  }
+  .header_Content_plate{
+    left: 3%;
+    top: 64%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 520px;
+    height: 200px;
+    align-items: baseline;
+    grid-column-gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .header_Content_plate div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    justify-content: flex-start;
+    transition-duration: 0s;
+    opacity: 0.9;
+
+  }
+  .header_Content_plate a{
+  font-size: 32px;
+  }
+
+  .header_Content_plate span{
+  font-size: 60px;
+  }
+
+  .header_Menu_box span:before{
+    left:auto;
+  }
+
+  .header_Menu_box:before {
+      left:auto;
+  }
+
+  .header_Menu_ButMenu{
+    display: block;
+  }
+
+  .header_Menu_ButMenu a{
+    color:white;
+  }
+}
+
+@media (min-width: 600px) and (max-width:  700px) {
+  body{
+    display: grid;
+    grid-template-rows: 1400px 500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .animate1{
+    width:70px;
+     height:70px;
+     margin-top: 15px;
+  }
+  .animate1:hover{
+  opacity: 0.6;
+  }
+
+  .header_Content{
+    background-image: url(../picture/adaptive/backgroundMobile2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1600px;
+  }
+
+  .header_Menu{
+  height: 100px;
+  grid-column-gap: 5%;
+  }
+
+  .header_Menu_box{
+  margin-left: 280px;
+  width: 210px;
+  }
+
+  .side-panel {
+  height: 60vh;
+  width: 400px;
+  }
+
+  .side-title {
+  font-size: 30px;
+  }
+
+  .header_Menu_box_logo{
+  width: 200px;
+  height: 400px;
+  padding: 0px;
+  top:-150px;
+  left:0px;
+  }
+
+  .header_Menu_MainMenu{
+  display: none;
+  }
+
+  .line {
+  display: none;
+  }
+
+  .button{
+    font-size: 35px;
+    top: 480px;
+    left: 19%;
+    transition-duration: 0s;
+  }
+  .button:before {
+    width: 30px;
+    height: 30px;
+  }
+  .button:after {
+    width: 30px;
+    height:30px;
+  }
+  .header_Content_plate{
+    left: 12%;
+    top: 57%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 520px;
+    height: 200px;
+    align-items: baseline;
+    grid-column-gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .header_Content_plate div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    justify-content: flex-start;
+    transition-duration: 0s;
+    opacity: 0.9;
+
+  }
+  .header_Content_plate a{
+  font-size: 32px;
+  }
+
+  .header_Content_plate span{
+  font-size: 60px;
+  }
+
+  .header_Menu_box span:before{
+    left:auto;
+  }
+
+  .header_Menu_box:before {
+      left:auto;
+  }
+
+  .header_Menu_ButMenu{
+    display: block;
+  }
+
+  .header_Menu_ButMenu a{
+    color:white;
+  }
+}
+
+@media (min-width: 700px) and (max-width:  767px) {
+  body{
+    display: grid;
+    grid-template-rows: 1400px 500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .animate1{
+    width:70px;
+     height:70px;
+     margin-top: 15px;
+  }
+  .animate1:hover{
+  opacity: 0.6;
+  }
+
+  .header_Content{
+    background-image: url(../picture/adaptive/backgroundMobile2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1700px;
+  }
+
+  .header_Menu{
+  height: 100px;
+  grid-column-gap: 5%;
+  }
+
+  .header_Menu_box{
+  margin-left: 340px;
+  width: 210px;
+  }
+
+  .side-panel {
+  height: 60vh;
+  width: 400px;
+  }
+
+  .side-title {
+  font-size: 30px;
+  }
+
+  .header_Menu_box_logo{
+  width: 200px;
+  height: 400px;
+  padding: 0px;
+  top:-150px;
+  left:0px;
+  }
+
+  .header_Menu_MainMenu{
+  display: none;
+  }
+
+  .line {
+  display: none;
+  }
+
+  .button{
+    font-size: 35px;
+    top: 480px;
+    left: 22%;
+    transition-duration: 0s;
+  }
+  .button:before {
+    width: 30px;
+    height: 30px;
+  }
+  .button:after {
+    width: 30px;
+    height:30px;
+  }
+  .header_Content_plate{
+    left: 15%;
+    top: 52%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 520px;
+    height: 200px;
+    align-items: baseline;
+    grid-column-gap: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .header_Content_plate div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    justify-content: flex-start;
+    transition-duration: 0s;
+    opacity: 0.9;
+  }
+  .header_Content_plate a{
+  font-size: 32px;
+  }
+
+  .header_Content_plate span{
+  font-size: 60px;
+  }
+
+  .header_Menu_box span:before{
+    left:auto;
+  }
+
+  .header_Menu_box:before {
+      left:auto;
+  }
+
+  .header_Menu_ButMenu{
+    display: block;
+  }
+
+  .header_Menu_ButMenu a{
+    color:white;
+  }
+}
+
+@media (min-width: 767px) and (max-width:  991px) {
+  body{
+    display: grid;
+    grid-template-rows: 800px 500px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .animate1{
+    width:70px;
+     height:70px;
+     margin-top: 15px;
+  }
+  .animate1:hover{
+  opacity: 0.6;
+  }
+
+  .header_Content{
+    background-image: url(../picture/adaptive/backgroundAdaptive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+  }
+
+  .header_Menu{
+  height: 100px;
+  grid-column-gap: 5%;
+  }
+
+  .header_Menu_box{
+  margin-left: 70%;
+  width: 210px;
+  }
+
+  .side-panel {
+  height: 70%;
+  width: 400px;
+  }
+
+  .side-title {
+  font-size: 35px;
+  }
+
+  .header_Menu_box_logo{
+  width: 200px;
+  height: 400px;
+  padding: 0px;
+  top:-150px;
+  left:0px;
+  }
+
+  .header_Menu_MainMenu{
+  display: none;
+  }
+
+  .line {
+  display: none;
+  }
+
+  .button{
+    font-size: 35px;
+    top: 480px;
+    left: 30%;
+    transition-duration: 0s;
+  }
+  .button:before {
+    width: 30px;
+    height: 30px;
+  }
+  .button:after {
+    width: 30px;
+    height:30px;
+  }
+  .header_Content_plate{
+    padding-left:8%;
+    left:0;
+    top: 52%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 820px;
+    height: 200px;
+    align-items: baseline;
+    grid-column-gap: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header_Content_plate div{
+    display: flex;
+    text-align: center;
+    height: 150px;
+    width: 350px;
+    justify-content: space-between;
+    transition-duration: 0s;
+    opacity: 0.9;
+    justify-content: center;
+
+  }
+  .header_Content_plate a{
+  font-size: 25px;
+  }
+
+  .header_Content_plate span{
+  font-size: 45px;
+  }
+
+  .header_Menu_box span:before{
+    left:auto;
+  }
+
+  .header_Menu_box:before {
+      left:auto;
+  }
+
+  .header_Menu_ButMenu{
+    display: block;
+  }
+
+  .header_Menu_ButMenu a{
+    color:white;
+  }
+}
